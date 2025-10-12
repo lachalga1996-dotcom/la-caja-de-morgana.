@@ -3510,3 +3510,9 @@ input, select, textarea {
 			}
 
 	}
+body,
+#header,
+.main.style1,
+.main.style2 {
+    background-color: #ffffff !important;
+}
