@@ -103,9 +103,18 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<script>
+                function toggleGaleria(event) {
+                 event.preventDefault();
+                 const galeria = event.currentTarget.parentElement.querySelector('.galeria-oculta');
+                 galeria.style.display = galeria.style.display === 'block' ? 'none' : 'block';
+                 }
+            </script>
+
 	</body>
 
 </html>
+
 
 
 
